@@ -23,6 +23,30 @@
   - Creating and verifying choice fields for Category and Subcategory.
   - Setting up trigger conditions for automated ticket routing and email notifications
   ---
+  ---
+
+## Milestone 2: Backend Development & Configuration
+
+### Activity 1: Creation of Custom Table to Store Ticket Records
+- **Navigation:** Application Navigator -> System Definition -> Tables
+- **Action:** Created a custom table in ServiceNow to hold incoming ticket data and classification fields.
+- **Result:** Successfully created table and verified schema structure.
+
+---
+
+### Activity 2: Field Creation and Data Type Configuration
+- **Action:** Defined custom fields required for ticket classification.
+- **Configured Fields:**
+  - Added fields with appropriate data types (String, Choice, Reference).
+  - Configured labels, names, and field properties.
+
+---
+
+### Activity 3: Implementing Dependency Between Category and Subcategory Choice Fields
+- **Action:** Established dependent choice logic between Category and Subcategory fields.
+- **Implementation:** Configured dependent field values so Subcategory options dynamically filter based on the selected Category.
+- **Outcome:** Ensured structured data input and validated field dependencies on the form view.
+-
 
 ## Milestone 3: Automation using Flow Designer & Email Notification
 
