@@ -80,10 +80,28 @@
 
 ---
 
+---
+
 ## Milestone 5: Deployment & Conclusion
 
-### Summary & Conclusion
-- **Update Set Completed:** Marked project Update Set status as 'Complete' and exported XML.
-- **Flow Designer Activated:** Flow trigger and actions successfully tested and activated in target environment.
-- **Project Outcome:** Automated ticket classification workflow built using ServiceNow Flow Designer, reducing manual effort and improving routing accuracy.
+### Activity 1: Make Update set to Complete State
+- **Objective:** Finalize all project configuration changes for export.
+- **ServiceNow Steps:**
+  1. Navigated to **System Update Sets** > **Local Update Sets**.
+  2. Opened the active project update set used for this task.
+  3. Changed the **State** field value from 'In Progress' to **Complete**.
+  4. Saved the record.
+- **Outcome:** The update set is now locked and ready to be exported as an XML file.
+
+---
+
+### Conclusion
+- **Project Summary:** Successfully completed all milestones for the ServiceNow project.
+- **Key Achievements:**
+  - Performed Requirement Analysis.
+  - Completed Backend Table Development and dependency configuration.
+  - Implemented Automation using Flow Designer and set up Email Notifications.
+  - Verified logic through complete Testing and secured configurations.
+  - Standardized the deployment process by finalizing the Update Set.
+- **Conclusion Statement:** The project requirements have been met and documented, ensuring a structured and reproducible configuration process for the ServiceNow instance.
 -
